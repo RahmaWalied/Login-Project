@@ -17,6 +17,9 @@ body {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
   text-align: center;
   animation: popIn 0.8s ease-in-out;
+      max-width: 500px;
+    width: 90%;
+    margin: auto;
 }
 h1 {
   color: #17a2b8;
