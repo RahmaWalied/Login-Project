@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/signin.css">
+</head>
+<body>
+  <div class="container text-center my-5 w-75">
+    <div class="group m-auto w-75 p-5">
+      <h1>Smart Login System</h1>
+      <input type="text" id="signinEmail" class="form-control my-3" placeholder="Enter Your Email">
+      <input type="password" id="signinPassword" class="form-control my-3" placeholder="Enter Your Password">
+      <p id="message"></p>
+      <button class="btn btn-outline-info w-100 my-3" onclick="signIn()">Login</button>
+      <p class="text-white signup">
+        Don't have an account?
+      <a class="text-white text-decoration-none" href="signup.html">Sign Up</a>
+      </p>
+    </div>
+  </div>
+  <script src="./js/signin.js"></script>
+</body>
+</html>
